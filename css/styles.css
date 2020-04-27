@@ -145,14 +145,15 @@ body {
   display: flex;
   font-family: 'Montserrat', sans-serif;
   cursor: pointer;
-  -webkit-box-align: top;
-  -ms-flex-align: top;
-  align-items: top;
+  -webkit-box-align: baseline;
+  -ms-flex-align: baseline;
+  align-items: baseline;
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
   margin-bottom: 140px;
 }
+
 .logotype {
   text-decoration: none;
   font-size: 30px;
@@ -238,7 +239,7 @@ a.navigation__list-link:after {
   margin: 0 auto;
 }
 .header__title {
-  font-size: 62px;
+  font-size: 42px;
   font-family: 'Kaushan Script';
   color: rgb(255, 255, 255);
   line-height: 1.2;
@@ -246,7 +247,7 @@ a.navigation__list-link:after {
   margin-bottom: 125px;
 }
 .header__title-large {
-  font-size: 130px;
+  font-size: 100px;
   font-family: 'Montserrat', sans-serif;
   cursor: pointer;
   color: rgb(255, 255, 255);
