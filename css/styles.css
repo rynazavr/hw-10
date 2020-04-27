@@ -80,19 +80,19 @@ a {
       from(rgba(252, 227, 138, 0.9)),
       to(rgba(243, 129, 129, 0.9))
     ),
-    url(/img/Layer15.jpg);
+    url(../img/Layer15.jpg);
   background-image: -o-linear-gradient(
       bottom,
       rgba(252, 227, 138, 0.9),
       rgba(243, 129, 129, 0.9)
     ),
-    url(/img/Layer15.jpg);
+    url(../img/Layer15.jpg);
   background-image: linear-gradient(
       to top,
       rgba(252, 227, 138, 0.9),
       rgba(243, 129, 129, 0.9)
     ),
-    url(/img/Layer15.jpg);
+    url(../img/Layer15.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   padding-bottom: 230px;
