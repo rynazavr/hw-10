@@ -224,7 +224,7 @@ a.navigation__list-link:after {
 .navigation__btn-cart:hover svg {
   fill: #fce38a;
 }
-.header__btn {
+.heading__btn {
   display: block;
   width: 164px;
   height: 44px;
@@ -238,7 +238,7 @@ a.navigation__list-link:after {
   padding: 10px;
   margin: 0 auto;
 }
-.header__title {
+.heading__title {
   font-size: 42px;
   font-family: 'Kaushan Script';
   color: rgb(255, 255, 255);
@@ -246,7 +246,7 @@ a.navigation__list-link:after {
   text-align: center;
   margin-bottom: 125px;
 }
-.header__title-large {
+.heading__title-large {
   font-size: 100px;
   font-family: 'Montserrat', sans-serif;
   cursor: pointer;
@@ -263,7 +263,7 @@ a.navigation__list-link:after {
   padding-bottom: 83px;
 }
 /*headers*/
-.sections-headers__first-header {
+.headings__first-header {
   display: block;
   font-family: 'Kaushan Script', cursive;
   font-size: 24px;
@@ -271,7 +271,7 @@ a.navigation__list-link:after {
   margin-bottom: 18px;
   font-weight: 300;
 }
-.sections-headers__second-header {
+.headings__second-header {
   display: block;
   color: #333333;
   font-family: 'Montserrat', sans-serif;
@@ -279,7 +279,7 @@ a.navigation__list-link:after {
   font-size: 30px;
   text-transform: uppercase;
 }
-.sections-headers::after {
+.headings::after {
   display: block;
   width: 60px;
   height: 3px;
@@ -310,12 +310,12 @@ a.navigation__list-link:after {
   margin-bottom: 0px;
 }
 /*icons*/
-.services-list__item__icon-wrapper {
+.services-list__icon {
   position: relative;
   padding-left: 83px;
   text-align: left;
 }
-.services-list__item__icon-wrapper-before::before {
+.services-list__ico-before::before {
   position: absolute;
   left: 0;
   top: 0;
@@ -326,40 +326,40 @@ a.navigation__list-link:after {
   background-repeat: no-repeat;
   background-position: top;
 }
-.services-list__item__icon-photography:before {
+.item__ico-before--photography:before {
   background-image: url(../img/icons/alarm.svg);
 }
-.services-list__item__icon-web-design:before {
+.item__ico-before--web:before {
   background-image: url(../img/icons/line_graph.svg);
 }
-.services-list__item__icon-creativity:before {
+.item__ico-before--creativ:before {
   background-image: url(../img/icons/computer.svg);
 }
 .services-list__item__icon-computer:before {
   background-image: url(../img/icons/computer.svg);
 }
-.services-list__item__icon-html-css:before {
+.item__ico-before--css:before {
   background-image: url(../img/icons/home.svg);
 }
-.services-list__item__icon-ceo:before {
+.item__ico-before--ceo:before {
   background-image: url(../img/icons/book.svg);
 }
 .services-list__item__icon-digital:before {
   background-image: url(../img/abstract.png);
 }
 
-.item-services-header {
+.item__header {
   font-family: 'Montserrat', sans-serif;
   font-size: 14px;
   color: #333333;
   text-transform: uppercase;
   margin-bottom: 11px;
 }
-.item-services-content {
+.item__content {
   line-height: 24px;
 }
 /*OUR TEAM BLOCK*/
-.meet-our-team__list {
+.meet-our-team__mot-list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -370,7 +370,7 @@ a.navigation__list-link:after {
   -ms-flex-pack: justify;
   justify-content: space-between;
 }
-.meet-our-team__list__item {
+.mot-list__mot-item {
   width: 380px;
   position: relative;
 }
@@ -397,7 +397,7 @@ a.navigation__list-link:after {
   display: block;
 }
 /*our-team-card-hover*/
-.meet-our-team__list__card-overlay {
+.mot-item__overlay {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -411,8 +411,8 @@ a.navigation__list-link:after {
   transition: box-shadow 200ms ease-in, background-image 200ms ease-in,
     -webkit-box-shadow 200ms ease-in;
 }
-.meet-our-team__list__item-animation:hover .meet-our-team__list__card-overlay,
-.meet-our-team__list__item-animation:focus .meet-our-team__list__card-overlay {
+.mot-item__animation:hover .mot-item__overlay,
+.mot-item__animation:focus .mot-item__overlay {
   opacity: 1;
   visibility: visible;
   -webkit-box-shadow: 10px 10px 0px 0px rgb(149, 225, 211);
@@ -435,20 +435,20 @@ a.navigation__list-link:after {
     rgba(243, 129, 129, 0.9)
   );
 }
-.meet-our-team__list__item-animation {
+.mot-item__animation {
   -webkit-transition: all 200ms linear;
   -o-transition: all 200ms linear;
   transition: all 200ms linear;
   /*height: 470px;*/
 }
-.meet-our-team__list__item-animation:hover,
-.meet-our-team__list__item-animation:focus {
+.mot-item__animation:hover,
+.mot-item__animation:focus {
   -webkit-transform: translate(-10px, -10px);
   -ms-transform: translate(-10px, -10px);
   transform: translate(-10px, -10px);
 }
 /*SOCIAL ICONS*/
-.meet-our-team__social-icons {
+.mot-item__social-icons {
   position: absolute;
   text-decoration: none;
   list-style: none;
@@ -467,11 +467,11 @@ a.navigation__list-link:after {
   transform: translate(-50%, -50%);
 }
 
-.meet-our-team__social-icons a:hover {
+.mot-item__social-icons a:hover {
   background-color: #f38181;
   border: 1px solid #f38181;
 }
-.meet-our-team__social-icons__icon {
+.social-icons__icon {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -489,25 +489,25 @@ a.navigation__list-link:after {
   -ms-flex-pack: center;
   justify-content: center;
 }
-.meet-our-team__social-icons__icon .team-card__list-item-icon {
+.social-icons__icon .icon__icon-style {
   fill: #f38181;
 }
-.meet-our-team__social-icons__icon:hover .team-card__list-item-icon {
+.social-icons__icon:hover .icon__icon-style {
   fill: #ffffff;
 }
-.team-card__list-item-icon-facebook {
+.icon-style--facebook {
   width: 13px;
   height: 26px;
 }
-.team-card__list-item-icon-twitter {
+.icon-style--twitter {
   width: 26px;
   height: 22px;
 }
-.team-card__list-item-icon-pinterest {
+.icon-style--pinterest {
   width: 21px;
   height: 26px;
 }
-.team-card__list-item-icon-instagram {
+.icon-style--instagram {
   width: 26px;
   height: 26px;
 }
@@ -530,11 +530,11 @@ a.navigation__list-link:after {
   font-size: 14px;
   color: rgb(51, 51, 51);
 }
-.footer__wrapper_color-link {
+.wrapper_color-link {
   color: #f38181;
   text-decoration: none;
 }
-.footer__subscribe-form__btn {
+.subscribe-form__btn {
   border: none;
   background-color: #95e1d3;
   border: 1px solid #95e1d3;
@@ -547,7 +547,7 @@ a.navigation__list-link:after {
   height: 40px;
   cursor: pointer;
 }
-.footer__subscribe-form__input {
+.subscribe-form__input {
   width: 300px;
   height: 40px;
   border: 1px solid #e5e5e5;
